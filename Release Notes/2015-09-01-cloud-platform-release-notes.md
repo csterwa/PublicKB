@@ -49,14 +49,23 @@
     + Auto Patching for RHEL and CentOS
     + Auto Patching for Windows 2012
 
+    ![Automated Patching](../images/2015-09-01-auto-patching.png)
+
 * __Managed Hadoop.__ Minor changes have been made to improve the reliability of Managed Hadoop builds.
 
 * __Cloud Platform.__ The CenturyLink Cloud platform is releasing with some updates including:
 
+<<<<<<< HEAD
   __Drive Extensions Now Prohibited When A Snapshots Exists__ Control Portal no longer allows extending a drive when there is an existing snapshot.
 
   __Set Your Own Price: Edit Price Adjustments__ Users with System Billing Manager privileges (or above) can now edit a price adjustment that has been added to the Control Portal.
   ![Set Your Own Price - Edit Adjustments](../images/2015-09-01-syop-edit-adjustment.png)
+=======
+    __Drive Extension Only Allowed When No Snapshots__ Control Portal no longer allows extending a drive when there is an existing snapshot.
+
+    __Set Your Own Price: Edit Price Adjustments__ The additional capability for users with System Billing Manager privileges or above to edit a price adjustment has been added to Control Portal.
+    ![Set Your Own Price - Edit Adjustments](../images/2015-09-01-syop-edit-adjustment.png)
+>>>>>>> csterwa/master
 
 ### Ecosystem: New Blueprints (5)
 
@@ -76,7 +85,17 @@
 
 * __[Zodiac](https://github.com/CenturyLinkLabs/zodiac/)__ Released v0.3.0 providing Docker Compose 1.4 compatibility. Check out the [release notes](https://github.com/CenturyLinkLabs/zodiac/releases/tag/0.3.0).
 
+<<<<<<< HEAD
 ### Selected Bug Fixes (5)
+=======
+### Bug Fixes (5)
+
+* __Blueprint that builds server then adds public IP address can fail__ We fixed an issue where the asynchronous nature of blueprint server builds could cause adding of public IP address to fail.
+
+* __Delete all Account Servers does not delete 'Queued For Delete Servers'__ The delete all Account Servers not accounts for the queued for delete servers.
+
+* __Blueprint: Snapshot of a Hyperscale Server should not succeed__  Submitting a blueprint will not allow a snapshot of Hypserscale servers.
+>>>>>>> csterwa/master
 
 * __Blueprint that builds server then adds public IP address can fail__ We fixed an issue where the asynchronous nature of Blueprint server builds occasionally caused the addition of a public IP address to fail.
 

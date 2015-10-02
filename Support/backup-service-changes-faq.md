@@ -17,13 +17,7 @@ CenturyLink Cloud will still offer a block storage service for virtual machines 
 
 ### What does this mean for me?
 
-Your backups on Standard and Premium will continue to function until the Simple Backup Service becomes available. At that point, backups will no longer happen automatically – you will need to have a Simple Backup Service policy applied to the VM in order for backups to occur (or have some other mechanism in place).
-
-The “final” images captured via Standard and Premium will be retained for 5 days and 14 days respectively.
-
-### When is this happening?
-
-The Standard and Premium products will be phased out data center-by-data center. This phased retirement of Standard and Premium - and phased launch of the Simple Backup Service - is likely to occur in late 2015 or early 2016. We will post more details on this transition in the coming weeks.
+Your backups on Standard and Premium will continue to function until the Simple Backup Service becomes available. At that point, your simple backup policy will be configured to match Standard or Premium storage and customers can adjust their policy from there.  Your backup will then continue to occur consistent with Standard or Premium backup service definitions (the one exception would be backups will be for entire drives and their paths, not snapshots).
 
 ### Will my servers be automatically removed from standard & premium storage? Is there something I need to do to enable Simple Backup Service?
 
@@ -34,6 +28,10 @@ The default option for customers will be as follows:
 * Customers may then remove the policies or create their own
 
 If you would prefer a different path than the one above, please contact us at [help@ctl.io](mailto:help@ctl.io) or reach out to your account manager.
+
+### When is this happening?
+
+The Standard and Premium products will be phased out data center-by-data center. This phased retirement of Standard and Premium - and phased launch of the Simple Backup Service - is likely to occur in late 2015 or early 2016. We will post more details on this transition in the coming weeks.
 
 ### Will my pricing change?
 

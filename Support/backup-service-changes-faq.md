@@ -17,7 +17,7 @@ CenturyLink Cloud will still offer a block storage service for virtual machines 
 
 ### What does this mean for me?
 
-Your backups on Standard and Premium will continue to function until the Simple Backup Service becomes available. At that point, your simple backup policy will be configured to match Standard or Premium storage and customers can adjust their policy from there.  Your backup will then continue to occur consistent with Standard or Premium backup service definitions (the one exception would be backups will be for entire drives and their paths, not snapshots).
+Your backups on Standard and Premium will continue to function until the Simple Backup Service becomes available. At that point, your simple backup policy will be configured to match Standard or Premium storage - you can adjust the policy from there.  Your backup will then continue to occur consistent with Standard or Premium backup service definitions (the one exception would be backups will be for entire drives and their paths, not snapshots).
 
 ### Will my servers be automatically removed from standard & premium storage? Is there something I need to do to enable Simple Backup Service?
 

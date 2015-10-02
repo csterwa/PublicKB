@@ -35,7 +35,7 @@ The Standard and Premium products will be phased out data center-by-data center.
 
 ### Will my pricing change?
 
-Yes – your price for block storage will drop, since backups are no longer included by default.
+Yes – your price for block storage will drop, since backups are no longer included by default. However, additional backup costs may be incurred via the Simple Backup Service.
 
 ### Will I save money with the Simple Backup Service, compared to what I'm paying today?
 
@@ -63,7 +63,7 @@ Removing a policy from the Control Portal also dis-associates the policy from an
 
 ### Where will the Simple Backup Service be available? Where are the backups stored?
 
-The Simple Backup Service will be available for virtual machines and bare metal servers in all CenturyLink Cloud nodes, public and private. The availability will be introduced node-by-node as mentioned above. The storage targets for the backups will be located in regions around the world. These locations are in enterprise data centers that meet CenturyLink standards for availability, durability, security, and access. Customers can choose the target which make sense for the business needs and governance. Backup target regions include:
+The Simple Backup Service will be available for virtual machines and bare metal servers in all CenturyLink Cloud nodes, public and private. The availability will be introduced node-by-node as mentioned above. The storage targets for the backups will be located in regions around the world. These locations are in enterprise data centers that meet CenturyLink standards for availability, durability, security, and access. Customers can choose the target which make sense for the business needs and governance. Backup target regions tentatively include:
 
 * US East
 * US West
@@ -95,7 +95,7 @@ Simple Backup Service does not perform snapshots - it provides file and folder l
 
 This chart is a helpful comparison:
 
-| Feature | Standard Block Storage | Premium Block Storage | Simple Backup Service |
+| Feature | Standard Block Storage (to be retired) | Premium Block Storage (to be retired) | Simple Backup Service |
 | --- | --- | --- | ---|
 | Block Storage | Included | Included | Purchased separately |
 | Required with each server | Default option | Optional upgrade | No, users opt-in only |

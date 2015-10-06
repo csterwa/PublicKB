@@ -91,6 +91,10 @@ Standard and Premium Storage will not be available for continued use once they a
 
 Simple Backup Service does not perform snapshots - it provides file and folder level backups and restores. However, you may continue to use the [snapshot capability in the Control Portal](../Servers/creating-and-managing-server-snapshots.md). If you have questions about options, please contact us at [help@ctl.io](mailto:help@ctl.io).
 
+### How to restores work with Simple Backup Service?
+
+Customers simply choose a point-in-time backup to restore. From there, the files are then placed back into a folder on the source machine. Users do not have the ability to create new VMs based restores.
+
 ### How does Simple Backup Service differ from the current storage services?
 
 This chart is a helpful comparison:

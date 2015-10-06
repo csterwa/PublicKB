@@ -17,7 +17,7 @@ CenturyLink Cloud will still offer a block storage service for virtual machines 
 
 ### What does this mean for me?
 
-Your backups on Standard and Premium will continue to function until the Simple Backup Service becomes available. At that point, your simple backup policy will be configured to match Standard or Premium storage - you can adjust the policy from there.  Your backup will then continue to occur consistent with Standard or Premium backup service definitions (the one exception would be backups will be for entire drives and their paths, not snapshots).
+Your backups on Standard and Premium will continue to function until the Simple Backup Service becomes available. At that point, your simple backup policy will be configured to match Standard or Premium storage and you can adjust their policy from there.  Your backup will then continue to occur consistent with Standard or Premium backup service definitions (the one exception would be backups will be for entire drives and their paths, not snapshots).
 
 ### Will my servers be automatically removed from standard & premium storage? Is there something I need to do to enable Simple Backup Service?
 
@@ -91,9 +91,9 @@ Standard and Premium Storage will not be available for continued use once they a
 
 Simple Backup Service does not perform snapshots - it provides file and folder level backups and restores. However, you may continue to use the [snapshot capability in the Control Portal](../Servers/creating-and-managing-server-snapshots.md). If you have questions about options, please contact us at [help@ctl.io](mailto:help@ctl.io).
 
-### How to restores work with Simple Backup Service?
+### With this new service, can I still restore to a remote DC, like with Premium Storage?
 
-Customers simply choose a point-in-time backup to restore. From there, the files are then placed back into a folder on the source machine. Users do not have the ability to create new VMs based restores.
+Not at first - restores will be done on the source VM. However, future improvements to Simple Backup Service may include support for restores to a server at a remote DC. Alternatively, users may first restore the files to the server at the source data center, and then copy/move the files to the server at the remote data center.
 
 ### How does Simple Backup Service differ from the current storage services?
 

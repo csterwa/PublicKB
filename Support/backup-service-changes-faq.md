@@ -1,13 +1,13 @@
 {{{
   "title": "About Simple Backup Service and the Retirement of Standard & Premium Storage",
-  "date": "10-8-2015",
+  "date": "10-7-2015",
   "author": "Jared Ruckle & Mark Lee",
   "attachments": []
 }}}
 
 ### Description
 
-As posted on [status.ctl.io](https://status.ctl.io) on October 8, 2015, CenturyLink will be introducing a new service, Simple Backup Service, and retiring the Standard and Premium storage products. This Frequently Asked Questions document is meant to provide greater context and clarity about this transition.
+CenturyLink will be introducing a new service, Simple Backup Service, and retiring the Standard and Premium storage products. This Frequently Asked Questions document is meant to provide greater context and clarity about this transition.
 
 ### Why is this change happening?
 
